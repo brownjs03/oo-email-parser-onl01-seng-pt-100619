@@ -6,7 +6,6 @@ class EmailAddressParser
   
   def initialize(email)
     @emails = email
-    binding.pry
   end
   
   def parse
